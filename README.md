@@ -105,26 +105,7 @@ pip install askui
 To get started, set the environment variables required to authenticate with your chosen model provider.
 
 #### How to set an environment variable?
-<details>
-  <summary>Linux & MacOS</summary>
-  
-  Use export to set an evironment variable:
-
-  ```shell
-  export ANTHROPIC_API_KEY=<your-api-key-here>
-  ```
-</details>
-
-<details>
-  <summary>Windows PowerShell</summary>
-  
-  Set an environment variable with $env:
-
-  ```shell
-  $env:ANTHROPIC_API_KEY="<your-api-key-here>"
-  ```
-</details>
-
+1. Create `.env` file similar to `.env.template` and update required credentials.
 
 ### 3b. Test with 🤗 Hugging Face **AI Models** (Spaces API)
 
