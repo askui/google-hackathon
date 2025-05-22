@@ -173,6 +173,10 @@ To run your agent locally:
 pytest
 ```
 
+## Debugging
+
+You can run the tests with the VS Code debugger using the provided `launch.json` configuration.
+
 # 🛠️ Edit and Sync Changes
 
 After making changes to your agent locally, you need to sync them back to AskUI Hub.
@@ -217,4 +221,4 @@ Contributions are always welcome!
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-🎉 Happy Coding! 🚀
+�� Happy Coding! 🚀
